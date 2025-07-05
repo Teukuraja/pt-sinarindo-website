@@ -19,16 +19,16 @@ export default function Contact() {
   };
 
   return (
-    <section className="bg-white py-10 px-4 sm:px-6 max-w-3xl mx-auto">
-      <h1 className="text-3xl sm:text-5xl font-bold text-red-700 mb-6 text-center">
+    <section className="bg-white py-12 px-4 sm:px-6 max-w-4xl mx-auto">
+      <h1 className="text-4xl sm:text-5xl font-bold text-red-700 mb-6 text-center">
         Hubungi Kami
       </h1>
 
-      <p className="text-sm sm:text-lg text-gray-700 mb-8 text-center max-w-2xl mx-auto">
+      <p className="text-base sm:text-lg text-gray-700 mb-8 text-center max-w-2xl mx-auto">
         Kami siap membantu kebutuhan Anda. Silakan hubungi kami melalui informasi berikut.
       </p>
 
-      <div className="bg-gray-50 border border-gray-200 rounded-lg p-5 sm:p-6 max-w-2xl mx-auto mb-10 text-gray-700 text-left space-y-4">
+      <div className="bg-gray-50 border border-gray-200 rounded-lg p-5 sm:p-6 max-w-2xl mx-auto mb-10 text-gray-700 space-y-4">
         <div className="flex items-start space-x-2">
           <span className="text-red-600">📍</span>
           <p className="text-sm sm:text-base">
@@ -52,16 +52,15 @@ export default function Contact() {
       <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
         <button
           onClick={handleEmailClick}
-          className="bg-red-700 text-white px-6 py-3 rounded-full hover:bg-red-600 transition text-center w-full sm:w-52"
+          className="bg-red-700 text-white px-6 py-3 rounded-full hover:bg-red-600 transition w-full sm:w-52 text-center"
         >
           Email Kami
         </button>
-
         <a
           href="https://wa.me/6282221744565"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-green-600 text-white px-6 py-3 rounded-full hover:bg-green-500 transition text-center w-full sm:w-52"
+          className="bg-green-600 text-white px-6 py-3 rounded-full hover:bg-green-500 transition w-full sm:w-52 text-center"
         >
           WhatsApp Kami
         </a>
