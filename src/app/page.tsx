@@ -1,9 +1,8 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <main>
-      {/* Kita akan mulai membangun dari sini */}
+      <h1>PT Sinarindo</h1>
+      <p>Selamat datang di website resmi kami.</p>
     </main>
   );
 }
