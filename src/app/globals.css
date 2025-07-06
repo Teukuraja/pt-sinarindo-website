@@ -3,15 +3,31 @@
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
 :root {
+=======
+/* Color variables for easy theming (Brand SRA) */
+:root {
+  --brand-primary: #F7941E;
+  --brand-primary-hover: #D45500;
+  --brand-dark: #1A1A1A;
+  --brand-neutral: #6E6E6E;
+  --brand-bg-neutral: #F5F5F5;
+  --brand-border: rgba(110, 110, 110, 0.2);
+>>>>>>> 7bfdd7c (ubah tema)
   --background: #ffffff;
   --foreground: #171717;
 }
 
+<<<<<<< HEAD
+=======
+/* Base body styles */
+>>>>>>> 7bfdd7c (ubah tema)
 body {
   background-color: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+<<<<<<< HEAD
   line-height: 1.6;
 }
 
@@ -47,4 +63,77 @@ ul {
 section {
   padding-top: 4rem;
   padding-bottom: 4rem;
+=======
+  line-height: 1.7;
+}
+
+/* Links - base and hover with brand colors */
+a {
+  @apply transition-colors duration-300;
+  color: var(--brand-dark);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--brand-primary-hover);
+}
+
+/* Header navigation links */
+.header-link {
+  color: var(--brand-primary);
+  @apply font-medium transition-colors duration-300;
+}
+.header-link:hover {
+  color: var(--brand-primary-hover);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--brand-dark);
+  @apply tracking-tight;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 1rem;
+  color: var(--brand-neutral);
+  @apply leading-relaxed;
+}
+
+/* Lists */
+ul {
+  list-style: disc inside;
+  margin-bottom: 1rem;
+  color: var(--brand-neutral);
+}
+
+/* Sections - use neutral background as default */
+section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: var(--brand-bg-neutral);
+}
+
+/* Card / Widget styling (example for border) */
+.card {
+  background-color: #fff;
+  border: 1px solid var(--brand-border);
+  @apply rounded-lg shadow-sm;
+}
+
+/* Utility animation for fade + slide up */
+@keyframes fade-slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fade-slide-up {
+  animation: fade-slide-up 1s ease-out forwards;
+>>>>>>> 7bfdd7c (ubah tema)
 }
