@@ -5,14 +5,14 @@
 
 /* Color variables for easy theming (Brand SRA) */
 :root {
-  --brand-primary: #F7941E;
-  --brand-primary-hover: #fffdfd;
+  --brand-primary: #fab25a;
+  --brand-primary-hover: #ffa412d4;
   --brand-dark: #1A1A1A;
   --brand-neutral: #6E6E6E;
   --brand-bg-neutral: #F5F5F5;
   --brand-border: rgba(110, 110, 110, 0.2);
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #454545;
 }
 
 /* Base body styles */
