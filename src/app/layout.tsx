@@ -12,6 +12,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="id" className={inter.className}>
       <head>
         <title>PT Sinarindo Raesa Anugrah</title>
+        <meta
+          name="description"
+          content="PT Sinarindo Raesa Anugrah bergerak di bidang Electrical, Maintenance Alat Berat, dan Konstruksi. Melayani dengan profesional dan terpercaya."
+        />
         <link rel="icon" type="image/png" href="/logo.png" />
       </head>
       <body className="bg-white text-gray-900 antialiased">
