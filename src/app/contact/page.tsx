@@ -14,8 +14,15 @@ export default function Contact() {
 
         <div className="bg-white border border-[#6E6E6E]/20 rounded-lg shadow-sm p-6 sm:p-8 text-left text-[#6E6E6E] max-w-2xl mx-auto space-y-4">
           <p>
-            📍 <strong>Alamat:</strong> Jl. Dr. Wahidin Sudiro Husodo XI B1 RT2 RW4 No.27, 
-            Singorejo, Kebomas, Gresik, Jawa Timur, 61161
+            📍 <strong>Alamat:</strong>{" "}
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=PT.+Sinarindo+Raesa+Anugrah,+Jl.+DR.+Wahidin+Sudiro+Husodo+Gg.+XI+No.B1+Rt02,+RW.04,+Dahanrejo,+Singorejo,+Kec.+Kebomas,+Kabupaten+Gresik,+Jawa+Timur+61161"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#F7941E] hover:underline"
+            >
+              PT. Sinarindo Raesa Anugrah, Jl. DR. Wahidin Sudiro Husodo Gg. XI No.B1 Rt02, RW.04, Dahanrejo, Singorejo, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61161
+            </a>
           </p>
           <p>
             📞 <strong>Telepon:</strong> 0822 2174 4565
