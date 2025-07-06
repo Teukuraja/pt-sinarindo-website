@@ -10,6 +10,10 @@ const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="id" className={inter.className}>
+      <head>
+        <title>PT Sinarindo Raesa Anugrah</title>
+        <link rel="icon" type="image/png" href="/logo.png" />
+      </head>
       <body className="bg-white text-gray-900 antialiased">
         <ClientWrapper>
           <Header />
