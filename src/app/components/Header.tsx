@@ -14,17 +14,17 @@ export default function Header() {
         {/* LOGO + BRAND */}
         <Link
           href="/"
-          className="flex items-center gap-3 md:gap-4 text-xl font-bold text-[#F7941E] hover:text-[#D45500] transition-colors"
+          className="flex items-center gap-2 sm:gap-3 md:gap-4 text-xl font-bold text-[#F7941E] hover:text-[#D45500] transition-colors"
         >
           <Image
             src="/logo.png"
             alt="Logo Sinarindo"
             width={96}
             height={96}
-            className="object-contain h-12 w-auto md:h-14"
+            className="object-contain h-10 w-auto sm:h-12 md:h-14"
             priority
           />
-          <span className="hidden sm:inline text-base md:text-lg lg:text-xl font-semibold text-[#1A1A1A]">
+          <span className="text-sm sm:text-base md:text-lg lg:text-xl font-semibold text-[#1A1A1A]">
             PT Sinarindo Raesa Anugrah
           </span>
         </Link>
