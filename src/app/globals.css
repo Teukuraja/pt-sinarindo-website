@@ -6,7 +6,7 @@
 /* Color variables for easy theming (Brand SRA) */
 :root {
   --brand-primary: #F7941E;
-  --brand-primary-hover: #D45500;
+  --brand-primary-hover: #fffdfd;
   --brand-dark: #1A1A1A;
   --brand-neutral: #6E6E6E;
   --brand-bg-neutral: #F5F5F5;
