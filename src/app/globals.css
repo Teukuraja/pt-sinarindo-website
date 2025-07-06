@@ -3,9 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-<<<<<<< HEAD
-:root {
-=======
 /* Color variables for easy theming (Brand SRA) */
 :root {
   --brand-primary: #F7941E;
@@ -14,56 +11,15 @@
   --brand-neutral: #6E6E6E;
   --brand-bg-neutral: #F5F5F5;
   --brand-border: rgba(110, 110, 110, 0.2);
->>>>>>> 7bfdd7c (ubah tema)
   --background: #ffffff;
   --foreground: #171717;
 }
 
-<<<<<<< HEAD
-=======
 /* Base body styles */
->>>>>>> 7bfdd7c (ubah tema)
 body {
   background-color: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-<<<<<<< HEAD
-  line-height: 1.6;
-}
-
-a {
-  @apply text-gray-900 transition-colors duration-300;
-  text-decoration: none;
-}
-a:hover {
-  @apply text-gray-700;
-}
-
-.header-link {
-  @apply text-orange-500 font-medium transition-colors duration-300;
-}
-.header-link:hover {
-  @apply text-orange-600;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 700;
-  margin-bottom: 0.5rem;
-}
-
-p {
-  margin-bottom: 1rem;
-}
-
-ul {
-  list-style: disc inside;
-  margin-bottom: 1rem;
-}
-
-section {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-=======
   line-height: 1.7;
 }
 
@@ -135,5 +91,4 @@ section {
 }
 .animate-fade-slide-up {
   animation: fade-slide-up 1s ease-out forwards;
->>>>>>> 7bfdd7c (ubah tema)
 }

@@ -1,10 +1,5 @@
 export default function Footer() {
   return (
-<<<<<<< HEAD
-    <footer className="bg-white border-t border-gray-200 mt-10">
-      <div className="max-w-6xl mx-auto px-4 py-6 text-center text-sm text-gray-500">
-        &copy; 2025 PT Sinarindo Raesa Anugrah. All rights reserved.
-=======
     <footer className="bg-white border-t border-[#6E6E6E]/20 mt-12">
       <div className="max-w-7xl mx-auto px-4 py-8 text-center space-y-4">
         <div className="text-sm text-[#1A1A1A]">
@@ -24,7 +19,6 @@ export default function Footer() {
             Terms of Service
           </a>
         </div>
->>>>>>> 7bfdd7c (ubah tema)
       </div>
     </footer>
   );
