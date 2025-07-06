@@ -1,7 +1,7 @@
 "use client";
 
 import { ReactNode, useEffect } from "react";
-// @ts-ignore: AOS has no official TypeScript types
+// @ts-expect-error AOS has no official TypeScript types
 import AOS from "aos";
 import "aos/dist/aos.css";
 

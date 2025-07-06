@@ -72,7 +72,7 @@ export default function TermsOfServicePage() {
               Penafian
             </h2>
             <p className="text-[#4B4B4B] leading-relaxed">
-              Konten di situs ini disediakan "sebagaimana adanya". Kami tidak menjamin
+              Konten di situs ini disediakan &quot;sebagaimana adanya&quot;. Kami tidak menjamin
               keakuratan atau kelengkapan informasi. Kami tidak bertanggung jawab
               atas kerugian akibat penggunaan situs.
             </p>

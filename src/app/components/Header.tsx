@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 
 export default function Header() {
@@ -6,7 +7,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-4 md:py-5">
 
         {/* LOGO + BRAND */}
-        <a
+        <Link
           href="/"
           className="flex items-center gap-3 md:gap-4 text-xl font-bold text-[#F7941E] hover:text-[#D45500] transition-colors"
         >
@@ -21,7 +22,7 @@ export default function Header() {
           <span className="hidden sm:inline text-base md:text-lg lg:text-xl font-semibold text-[#1A1A1A]">
             PT Sinarindo Raesa Anugrah
           </span>
-        </a>
+        </Link>
 
         {/* NAVIGATION */}
         <nav className="hidden md:flex space-x-6 lg:space-x-8 text-sm md:text-base font-medium">
@@ -32,13 +33,13 @@ export default function Header() {
             { href: "/contact", label: "Contact" },
             { href: "/gallery", label: "Gallery" },
           ].map((item) => (
-            <a
+            <Link
               key={item.href}
               href={item.href}
               className="text-[#1A1A1A] hover:text-[#D45500] focus:outline-none focus:ring-2 focus:ring-[#F7941E] rounded transition-colors"
             >
               {item.label}
-            </a>
+            </Link>
           ))}
         </nav>
 
