@@ -40,28 +40,40 @@ export default function ContactPage() {
         </div>
 
         {/* EMBED GOOGLE MAPS */}
-        <div className="mt-8 flex justify-center">
-          <div className="w-full max-w-[500px] rounded-lg overflow-hidden shadow-lg border border-[#6E6E6E]/20">
-            <iframe
-              src="https://www.google.com/maps?q=PT.+Sinarindo+Raesa+Anugrah,+Jl.+DR.+Wahidin+Sudiro+Husodo+Gg.+XI+No.B1+Rt02,+RW.04,+Dahanrejo,+Singorejo,+Kec.+Kebomas,+Kabupaten+Gresik,+Jawa+Timur+61161&output=embed"
-              width="100%"
-              height="220"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
+        <div className="mt-8 mx-auto max-w-2xl rounded-lg overflow-hidden shadow-lg border border-[#6E6E6E]/20">
+          <iframe
+            src="https://www.google.com/maps?q=PT.+Sinarindo+Raesa+Anugrah,+Jl.+DR.+Wahidin+Sudiro+Husodo+Gg.+XI+No.B1+Rt02,+RW.04,+Dahanrejo,+Singorejo,+Kec.+Kebomas,+Kabupaten+Gresik,+Jawa+Timur+61161&output=embed"
+            width="100%"
+            height="250"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
 
         {/* TOMBOL AKSI DI BAWAH */}
-        <div className="mt-8 flex flex-col sm:flex-row justify-center items-center gap-4">
+        <div className="mt-8 flex flex-wrap justify-center items-center gap-4">
+
+          {/* Kirim Email - Versi HP (mailto) */}
           <a
             href="mailto:sinarindoraesaanugrah@gmail.com?subject=Permintaan%20Informasi&body=Halo%20PT%20Sinarindo,%20saya%20ingin%20bertanya%20mengenai..."
-            className="inline-block bg-[#F7941E] hover:bg-[#D45500] text-white px-6 py-3 rounded-full transition-colors font-medium shadow text-center w-52"
+            className="inline-block sm:hidden bg-[#F7941E] hover:bg-[#D45500] text-white px-6 py-3 rounded-full transition-colors font-medium shadow text-center w-52"
           >
             Kirim Email
           </a>
+
+          {/* Kirim Email - Versi Desktop (Gmail Web Compose) */}
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=sinarindoraesaanugrah@gmail.com&su=Permintaan%20Informasi&body=Halo%20PT%20Sinarindo,%20saya%20ingin%20bertanya%20mengenai..."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden sm:inline-block bg-[#F7941E] hover:bg-[#D45500] text-white px-6 py-3 rounded-full transition-colors font-medium shadow text-center w-52"
+          >
+            Kirim Email
+          </a>
+
+          {/* WhatsApp */}
           <a
             href="https://wa.me/6282221744565?text=Halo%20PT%20Sinarindo,%20saya%20ingin%20bertanya%20mengenai..."
             target="_blank"
