@@ -14,7 +14,7 @@ export default function Hero() {
         </p>
         <a
           href="/services"
-          className="inline-block rounded-full bg-[#F7941E] hover:bg-[#D45500] text-white px-8 py-3 text-base sm:text-lg font-medium shadow-md transition duration-300"
+          className="inline-block rounded-full bg-[#F7941E] hover:bg-[#D45500] text-white hover:text-white px-8 py-3 text-base sm:text-lg font-medium shadow-md transition duration-300"
         >
           Lihat Layanan Kami
         </a>

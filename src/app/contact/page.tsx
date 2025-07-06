@@ -28,7 +28,7 @@ export default function Contact() {
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
           <a
             href="mailto:sinarindoraesaanugrah@gmail.com?subject=Permintaan%20Informasi&body=Halo%20PT%20Sinarindo,%20saya%20ingin%20bertanya%20mengenai..."
-            className="inline-block bg-[#F7941E] hover:bg-[#D45500] text-white px-6 py-3 rounded-full transition-colors font-medium shadow text-center w-52"
+            className="inline-block bg-[#F7941E] hover:bg-[#D45500] text-white hover:text-white px-6 py-3 rounded-full transition-colors font-medium shadow text-center w-52"
           >
             Kirim Email
           </a>
@@ -36,7 +36,7 @@ export default function Contact() {
             href="https://wa.me/6282221744565?text=Halo%20PT%20Sinarindo,%20saya%20ingin%20bertanya%20mengenai..."
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full transition-colors font-medium shadow text-center w-52"
+            className="inline-block bg-green-500 hover:bg-green-600 text-white hover:text-white px-6 py-3 rounded-full transition-colors font-medium shadow text-center w-52"
           >
             Chat via WhatsApp
           </a>
